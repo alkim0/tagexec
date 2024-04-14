@@ -1,3 +1,21 @@
+# Introduction
+This repository contains the code for Basilisk, a column-oriented database system capable of performing tagged execution as outlined in "Optimizing Disjunctive Queries with Tagged Execution" (SIGMOD 2024).
+To cite, please use:
+```
+@article{kimOptimizingDisjunctiveQueries2024
+  author       = {Albert Kim and
+                  Samuel Madden},
+  title        = {Optimizing Disjunctive Queries with Tagged Execution},
+  journal      = {Proc. {ACM} Manag. Data},
+  volume       = {2},
+  number       = {3},
+  pages        = {158:1--158:25},
+  year         = {2024},
+  url          = {https://doi.org/10.1145/3654961},
+  doi          = {10.1145/3654961},
+}
+```
+
 # Running Experiments
 
 ## `drop_caches`
